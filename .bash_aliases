@@ -1,5 +1,13 @@
 #/home/stacy/.bash_aliases
 
+alias autoupload-linux-configs='copy-linux-configs && upload-linux-configs'
+
+alias upload-linux-configs='cd ~/git-linux-configs &&
+git add --all &&
+git commit -m """autouploaded through shell script""" &&
+git push'
+
+
 alias editkitty='nvim ~/.config/kitty/kitty.conf'
 
 alias iotopmon='~/Documents/bash-scripts/iotopmon.sh'
