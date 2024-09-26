@@ -1,3 +1,4 @@
+#/home/stacy/.bash_aliases
 
 alias editkitty='nvim ~/.config/kitty/kitty.conf'
 

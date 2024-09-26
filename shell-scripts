@@ -1,5 +1,5 @@
 #!/bin/bash
-
+# /home/stacy/Documents/shell-scripts/shelledit.sh
 # Function to open files in Vim based on user input
 open_files_in_vim() {
   if [[ -f "$1" ]]; then
