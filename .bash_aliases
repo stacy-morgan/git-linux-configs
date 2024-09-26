@@ -1,9 +1,31 @@
+
+alias editkitty='nvim ~/.config/kitty/kitty.conf'
+
+alias iotopmon='~/Documents/bash-scripts/iotopmon.sh'
+
+alias editdir='sudo nvim ~/Documents/bash-scripts/dirmanager.sh'
+
+alias dir='~/Documents/bash-scripts/dirmanager.sh'
+
+alias run-shedit='~/Documents/bash-scripts/shelledit.sh'
+
+alias edit-shedit='sudo nvim ~/Documents/bash-scripts/shelledit.sh'
+
+alias n='clear && neofetch'
+
+alias iotop='sudo iotop'
+
+alias update='echo update'
+
 alias lsa='ls -a'
 
 alias copy-linux-configs='cp ~/.bash_aliases ~/git-linux-configs &&
 cp ~/.config/sway/config ~/git-linux-configs &&
 cp ~/.config/waybar/config ~/git-linux-configs &&
-cp ~/.config/waybar/style.css ~/git-linux-configs'
+cp ~/.config/waybar/style.css ~/git-linux-configs &&
+cp ~/Documents/shell-scripts/dirmanager.sh ~/git-linux-configs/shell-scripts &&
+cp ~/Documents/shell-scripts/network_traffic.sh ~/git-linux-configs/shell-scripts &&
+cp ~/Documents/shell-scripts/shelledit.sh ~/git-linux-configs/shell-scripts'
 
 alias pacrs='sudo pacman -Rs'
 
