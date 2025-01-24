@@ -7,19 +7,16 @@
     "spacing": 4, // Gaps between modules (4px)
     // Choose the order of the modules
     "modules-left": [
-        "sway/workspaces"
+        "cpu",
+	"power-profiles-daemon",
+	"memory",
+	"temperature"
     ],
-    "modules-center": [
-    	"custom/iomon",
-    	"clock",
-	"custom/netspeed"
-   ],
+
     "modules-right": [
         "pulseaudio",
-        "network",
-        "cpu",
-        "memory",
-        "temperature"
+	"tray",
+	"clock"
     ],
     // Modules configuration
     // "sway/workspaces": {
@@ -38,25 +35,7 @@
     //         "default": ""
     //     }
     // },
-    "keyboard-state": {
-        "numlock": true,
-        "capslock": true,
-        "format": "{name} {icon}",
-        "format-icons": {
-            "locked": "",
-            "unlocked": ""
-        }
-    },
-    "sway/mode": {
-        "format": "<span style=\"italic\">{}</span>"
-    },
-    "sway/scratchpad": {
-        "format": "{icon} {count}",
-        "show-empty": false,
-        "format-icons": ["", ""],
-        "tooltip": true,
-        "tooltip-format": "{app}: {title}"
-    },
+
     "tray": {
         // "icon-size": 21,
         "spacing": 10
@@ -122,17 +101,5 @@
             "default": ["", "", ""]
         },
         "on-click": "pavucontrol"
-    },
-
-    "custom/netspeed": {
-	"interval": 0.1,
-	"exec": "~/Documents/shell-scripts/network_traffic.sh",
-	"tooltip": false
-    },
-
-    "custom/iomon": {
-    	"interval": 10,
-    	"exec": "~/Documents/shell-scripts/dool.sh",
-    	"tooltip": false
     }
 }
