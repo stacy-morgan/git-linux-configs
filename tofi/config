@@ -66,28 +66,27 @@
 	#
 	# *-background-corner-radius
 	#     Radius of background box corners in pixels
-
 	# Prompt text theme
 	# prompt-color = #FFFFFF
-	prompt-background = #00000000
+	prompt-background = #000000
 	prompt-background-padding = 0
 	prompt-background-corner-radius = 0
 
 	# Placeholder text theme
 	placeholder-color = #FFFFFFA8
-	placeholder-background = #00000000
+	placeholder-background = #000000
 	placeholder-background-padding = 0
 	placeholder-background-corner-radius = 0
 
 	# Input text theme
 	# input-color = #FFFFFF
-	input-background = #00000000
+	input-background = #000000
 	input-background-padding = 0
 	input-background-corner-radius = 0
 
 	# Default result text theme
 	# default-result-color = #FFFFFF
-	default-result-background = #00000000
+	default-result-background = #000000
 	default-result-background-padding = 0
 	default-result-background-corner-radius = 0
 
@@ -97,18 +96,18 @@
 	# default-result-* attribute.
 	#
 	# alternate-result-color = #FFFFFF
-	# alternate-result-background = #00000000
+	# alternate-result-background = #000000
 	# alternate-result-background-padding = 0
 	# alternate-result-background-corner-radius = 0
 
 	# Selection text
-	selection-color = #F92672
-	selection-background = #00000000
+	selection-color = #a020f0
+	selection-background = #000000
 	selection-background-padding = 0
 	selection-background-corner-radius = 0
 
 	# Matching portion of selection text
-	selection-match-color = #00000000
+	selection-match-color = #ffd700
 
 
 #
@@ -171,7 +170,7 @@
 	height = 20%
 
 	# Window background color
-	background-color = #1B1D1E
+	background-color = #000000
 
 	# Width of the border outlines in pixels.
 	outline-width = 1
